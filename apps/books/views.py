@@ -24,9 +24,6 @@ class BookDetails(View):
         for ele in bookformat_info:
             url_list.append(ele.url)
 
-        # for lang in language_info:
-        #     lang_list.append(lang.language.code)
-
         for sub in subject_info:
             sub_list.append(sub.subject.name)
 
